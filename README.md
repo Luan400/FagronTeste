@@ -28,6 +28,6 @@ O Front-end processa na porta https://localhost:4200
 
 # Demonstração
 
-<p align='center'> <img src= './fagron.gif'</p></p>
+<p align='center'> <img src= '/fagron.gif'</p></p>
 
 
