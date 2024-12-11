@@ -1,0 +1,38 @@
+<div class="container mt-5">
+    <div class="container-titulo">
+        <h1 class="text-left">
+            Resultados
+            <p class=" text-muted data-label">{{primeiraData | date: 'dd/MM/yyyy'}} até {{ultimaData | date: 'dd/MM/yyyy'}}</p>
+        </h1>
+
+    </div>
+
+    <ul class="list-group mt-4">
+        <li class="list-group-item">
+            <strong>Jogos Disputados:</strong>
+            <span class="float-rigth text-primary"> {{totalJogos}} </span>
+        </li>
+        <li class="list-group-item">
+            <strong>Total de pontos marcados na temporada:</strong>
+            <span class="float-rigth text-primary"> {{totalPontos}} </span>
+        </li>
+        <li class="list-group-item">
+            <strong>Média de pontos por jogo:</strong>
+            <span class="float-rigth text-primary">{{mediaPontos | number: '1.2-2'}}</span>
+        </li>
+        <li class="list-group-item">
+            <strong>Maior pontuação em um jogo:</strong>
+            <span class="float-rigth text-primary">{{maiorPontuacao}}</span>
+        </li>
+        <li class="list-group-item">
+            <strong>Menor pontuação em um jogo:</strong>
+            <span class="float-rigth text-primary"> {{menorPontuacao}}</span>
+        </li>
+        <li class="list-group-item">
+            <strong>Quantas vezes bateu o recorde:</strong>
+            <span class="float-rigth text-primary">{{vezesQuebrouRecorde}}</span>
+        </li>
+    </ul>
+
+
+</div>

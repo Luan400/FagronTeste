@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+input.form-control {
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 200px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.mt-5 {
+    margin-top: 50px;
+}

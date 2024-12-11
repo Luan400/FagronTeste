@@ -1,0 +1,56 @@
+/* Centraliza o conteúdo na tela */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+/* Estilo do título */
+
+.container-titulo {
+    display: flex;
+    text-align: left;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    /* Adiciona uma margem superior para a distância do título e data */
+}
+
+.list-group-item {
+    display: flex;
+    font-size: 25px;
+    padding: 15px 30px;
+    border: none;
+    border-bottom: solid 1px;
+    width: 60vh;
+    text-align: left;
+    justify-content: space-between;
+}
+
+
+/* Ajuste para os valores ficarem alinhados à direita */
+
+.float-right {
+    text-align: right !important;
+    color: blue;
+}
+
+.mt-4 {
+    margin-top: 30px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+button {
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}

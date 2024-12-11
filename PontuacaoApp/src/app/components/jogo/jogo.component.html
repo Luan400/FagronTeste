@@ -1,0 +1,21 @@
+<div class="container mt-5">
+    <h1 class="text-left">{{tituloFormulario}}</h1>
+
+    <!-- formulario para enviar os dados -->
+    <div *ngIf="formulario">
+        <form [formGroup]="formulario" (ngSubmit)="salvarPontuacao()" id="pontuacaoForm">
+            <div class="mb-3">
+                <label for="dataJogo" class="form-label">Data do Jogo</label>
+                <input type="date" class="form-control" formControlName="date" id="dataJogo" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="pontuacao" class="form-label">Quantos pontos você fez:</label>
+                <input type="number" class="form-control" formControlName="points" id="pontuacao" required>
+            </div>
+
+            <button type="submit" class=" btn btn-primary">Enviar</button>
+
+        </form>
+    </div>
+</div>
